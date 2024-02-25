@@ -1,0 +1,14 @@
+[Unit]
+Description=CSGO Server
+[Service]
+Type=simple
+User=csgo
+Group=csgo
+Restart=on-failure
+RestartSec=5
+StartLimitInterval=60s
+StartLimitBurst=3
+ExecStart=/home/csgo/startcsgo.sh
+ExecStop=killall -TERM srcds_linux
+[Install]
+WantedBy=multi-user.target
