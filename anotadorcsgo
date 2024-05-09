@@ -660,3 +660,19 @@ mv libtcmalloc_minimal.so.4.5.9 libtcmalloc_minimal.so.0
 cp /usr/lib/x86_64-linux-gnu/libtcmalloc_minimal.so.4.5.9 .
 mv libtcmalloc_minimal.so.4.5.9 libtcmalloc_minimal.so.4
 
+#cs2
+		"cl_radar_always_centered"		"true"
+		"cl_radar_icon_scale_min"		"0.900000"
+		"cl_radar_rotate"		"true"
+		"cl_radar_scale"		"0.300000"
+		"cl_disable_round_end_report"		"false"
+		"cl_dm_buyrandomweapons"		"false"
+		"cl_embedded_stream_audio_volume"		"60.000000"
+		"cl_embedded_stream_audio_volume_xmaster"		"true"
+		"cl_ent_pivot_size"		"20.000000"
+		"cl_ent_text_flags_active"		"-1"
+		"cl_hide_avatar_images"		"0"
+		"cl_hud_color"		"1"
+		"cl_hud_radar_scale"		"0.800000"
+		"safezonex"		"0.900000"
+		"safezoney"		"0.900000"
