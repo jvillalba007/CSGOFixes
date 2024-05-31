@@ -676,3 +676,17 @@ mv libtcmalloc_minimal.so.4.5.9 libtcmalloc_minimal.so.4
 		"cl_hud_radar_scale"		"0.800000"
 		"safezonex"		"0.900000"
 		"safezoney"		"0.900000"
+
+alias "switchknife" "slot3; bind MOUSE2 switchprimary";
+alias "switchprimary" "lastinv; bind MOUSE2 switchknife";
+bind MOUSE2 switchknife;
+
+alias "switchsecondary" "slot2; bind MWHEELDOWN switchprimary1";
+alias "switchprimary1" "slot1; bind MWHEELDOWN switchsecondary";
+bind MWHEELDOWN switchsecondary;
+
+bind MOUSE3 switchhands;
+
+"cl_disable_round_end_report""false"
+"cl_dm_buyrandomweapons""false"
+"cl_hide_avatar_images""0"
