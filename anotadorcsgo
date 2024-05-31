@@ -687,6 +687,7 @@ bind MWHEELDOWN switchsecondary;
 
 bind MOUSE3 switchhands;
 
-"cl_disable_round_end_report""false"
-"cl_dm_buyrandomweapons""false"
-"cl_hide_avatar_images""0"
+"cl_disable_round_end_report" "false"
+"cl_dm_buyrandomweapons" "false"
+"cl_hide_avatar_images" "0"
+"cl_hud_color" "1"
