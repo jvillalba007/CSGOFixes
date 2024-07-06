@@ -691,3 +691,36 @@ bind MOUSE3 switchhands;
 "cl_dm_buyrandomweapons" "false"
 "cl_hide_avatar_images" "0"
 "cl_hud_color" "1"
+
+------------
+alias "switchknife" "slot3; bind MOUSE2 switchprimary";
+alias "switchprimary" "lastinv; bind MOUSE2 switchknife";
+bind MOUSE2 switchknife;
+
+alias "switchsecondary" "slot2; bind MWHEELDOWN switchprimary1";
+alias "switchprimary1" "slot1; bind MWHEELDOWN switchsecondary";
+bind MWHEELDOWN switchsecondary;
+
+bind MOUSE3 switchhands;
+
+"cl_disable_round_end_report" "false"
+"cl_dm_buyrandomweapons" "false"
+"cl_hide_avatar_images" "0"
+"cl_hud_color" "1"
+
+// NETWORK SETTINGS
+rate 1000000
+cl_predictweapons 1
+cl_lagcompensation 1
+net_client_steamdatagram_enable_override 1
+net_maxroutable 1200
+mm_session_search_qos_timeout 20
+mm_dedicated_search_maxping 50
+mm_csgo_community_search_players_min 3
+cl_resend 0.5
+cl_timeout 30
+lobby_default_privacy_bits2 0
+ui_setting_advertiseforhire_auto 1
+cl_join_advertise 2
+cl_invites_only_friends 0
+cl_invites_only_mainmenu 0
